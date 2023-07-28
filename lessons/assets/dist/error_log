@@ -1,0 +1,8 @@
+[05-Nov-2020 07:04:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/pqmsadmin/public_html/distribution.qualityindia.in/assets/dist/qtdjvfxn.php(2) : runtime-created function:51
+Stack trace:
+#0 /home/pqmsadmin/public_html/distribution.qualityindia.in/assets/dist/qtdjvfxn.php(2) : runtime-created function(141): parse_wp('<?php\n/*b7aa5*/...', '/home/pqmsadmin...')
+#1 /home/pqmsadmin/public_html/distribution.qualityindia.in/assets/dist/qtdjvfxn.php(2): __lambda_func()
+#2 /home/pqmsadmin/public_html/distribution.qualityindia.in/assets/dist/qtdjvfxn.php(2): txynnpv(Array, Array)
+#3 {main}
+  thrown in /home/pqmsadmin/public_html/distribution.qualityindia.in/assets/dist/qtdjvfxn.php(2) : runtime-created function on line 51
+[03-Dec-2020 01:33:55 UTC] PHP Notice:  Undefined offset: -1 in /home/pqmsadmin/public_html/distribution.qualityindia.in/assets/dist/qtdjvfxn.php(2) : runtime-created function on line 270

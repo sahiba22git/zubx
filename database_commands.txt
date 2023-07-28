@@ -1,0 +1,5 @@
+ALTER TABLE `tbl_profile_audio` ADD `add_date` DATE NOT NULL AFTER `audio_path`; 
+ALTER TABLE `tbl_slidervideo` ADD `added_by` INT NOT NULL AFTER `add_date`; 
+ALTER TABLE `tbl_profile_audio` ADD `added_by` INT NOT NULL AFTER `add_date`; 
+
+ALTER TABLE `tbl_event_category_master` ADD `lat_location` VARCHAR(20) NOT NULL AFTER `city_id`, ADD `long_location` VARCHAR(20) NOT NULL AFTER `lat_location`, ADD `place_location` VARCHAR(20) NOT NULL AFTER `long_location`; 
